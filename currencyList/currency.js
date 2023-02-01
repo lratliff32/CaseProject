@@ -18,5 +18,5 @@ document.getElementById("dollar").onchange = function(){var dcurrency = document
 document.getElementById("euro").value = fToc(dcurrency); return dcurrency}
 
 
-document.getElementById("eurro").onchange = function(){var ecurrency = document.getElementById("euro").value;
+document.getElementById("euro").onchange = function(){var ecurrency = document.getElementById("euro").value;
 document.getElementById("dollar").value = cTof(ecurrency); return ecurrency}
